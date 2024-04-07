@@ -1,15 +1,20 @@
 
 header{
-    height: auto;
+    height: 100px;
     width: auto;
     text-align: right;
     list-style-position: inside;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+main{
+    height: auto;
 }
 
 .container {
     height: 80px;
     position: relative;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
   
 .center {
@@ -19,6 +24,34 @@ header{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-left{
+    display:inline-flex;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 600px;
+}
+
+.footer-right{
+    display:inline-flex;
+    text-align: right;  
+    margin-right: 0px;
+    padding-right: 0px;  
+}
+
+footer{
+    height: 50px;
+    width: auto;
+    background-color: #f5f5f5;
+    font-size: smaller;
+    margin-top: 157px;
 }
 
   /*Google Search Bar*/
